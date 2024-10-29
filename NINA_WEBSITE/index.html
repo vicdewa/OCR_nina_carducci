@@ -15,11 +15,18 @@
 	<!-- Open Graph meta tags pour Facebook -->
 	<meta property="og:title" content="Nina Carducci | Photographe mariage, portrait et événementiel à Bordeaux">
     <meta property="og:description" content="Photographe professionnelle spécialisée dans les mariages, les portraits et l'événementiel. Contactez-moi pour plus d'informations!">
-    <meta property="og:image" content="https://www.example.com/assets/images/nina-carducci-about.png">
-    <meta property="og:url" content="https://ninacarducci.github.io/">
+    <meta property="og:image" content="https://nina-a55m8k5ms-vicdewas-projects.vercel.app/assets/images/nina-carducci-about.png">
+    <meta property="og:url" content="https://nina-a55m8k5ms-vicdewas-projects.vercel.app/">
     <meta property="og:type" content="website">
 	<meta property="og:locale" content="fr_FR">
 	<meta property="og:site_name" content="Nina Carducci Photographe">
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci | Photographe mariage, portrait et événementiel à Bordeaux">
+	<meta name="twitter:description" content="Photographe professionnelle spécialisée dans les mariages, les portraits et l'événementiel. Contactez-moi pour plus d'informations!">
+	<meta name="twitter:image" content="https://nina-a55m8k5ms-vicdewas-projects.vercel.app/assets/images/nina-carducci-about.png
+	">
+	<meta name="twitter:site" content="@nina_carducci">
 	<!-- Balise robot Google -->
     <meta name="robots" content="index, follow">
 </head>
@@ -164,11 +171,11 @@
 				<p> N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures.</p>
 				<form action="" method="post">
 					<label for="nom">Nom</label>
-					<input type="text" name="nom" id="nom">
+					<input type="text" name="nom" id="nom" autocomplete="name">
 					<label for="email">Email</label>
-					<input type="email" name="email" id="email">
+					<input type="email" name="email" id="email" autocomplete="email">
 					<label for="message">Message</label>
-					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+					<textarea name="message" id="message" cols="30" rows="10" autocomplete="off"></textarea>
 					<input type="submit" value="Envoyer"/>
 				</form>
 			</div>
@@ -204,10 +211,12 @@
 			"telephone": "05.56.67.78.89",
 			"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
 			"sameAs": [
-				"https://www.facebook.com",
-				"https://www.instagram.com",
-				"http://www.twitter.com"
-			]
+				"https://www.facebook.com/nina_carducci",
+				"https://www.instagram.com/nina_carducci",
+				"http://www.twitter.com/nina_carducci"
+			],
+			"image": "https://nina-a55m8k5ms-vicdewas-projects.vercel.app/assets/images/nina-carducci-about.png",  
+			"priceRange": "€€"  
 		}
 	</script>
 </body>
